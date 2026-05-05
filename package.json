@@ -1,0 +1,31 @@
+{
+  "name": "leenium-theme",
+  "displayName": "Leenium Theme",
+  "description": "Official VS Code theme for Leenium.",
+  "version": "0.0.1",
+  "publisher": "leenium",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "leenium",
+    "dark"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leeniumos/leenium.vscode.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Leenium",
+        "uiTheme": "vs-dark",
+        "path": "./themes/leenium-color-theme.json"
+      }
+    ]
+  }
+}
