@@ -3,7 +3,7 @@
   "displayName": "Leenium Theme",
   "description": "Official VS Code theme for Leenium.",
   "version": "0.0.1",
-  "publisher": "leenium",
+  "publisher": "drunkleen",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/leeniumos/leenium.vscode.git"
+    "url": "https://github.com/drunkleen/leenium.vscode.git"
   },
   "contributes": {
     "themes": [

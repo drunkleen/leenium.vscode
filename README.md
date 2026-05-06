@@ -1,36 +1,75 @@
-# Leenium VS Code Theme
+<div align="center">
 
-Marketplace extension for Leenium editor theme.
+# Leenium Theme
 
-## Local test
+**A deep, ocean-tinted dark theme for VS Code — part of the Leenium desktop ecosystem.**
 
-1. Install tooling:
+![Preview](preview.png)
+
+[![Version](https://img.shields.io/visual-studio-marketplace/v/drunkleen.leenium-theme?style=flat-square&color=35d6a0&labelColor=060b0f)](https://marketplace.visualstudio.com/items?itemName=leenium.leenium-theme)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/drunkleen.leenium-theme?style=flat-square&color=35d6a0&labelColor=060b0f)](https://marketplace.visualstudio.com/items?itemName=leenium.leenium-theme)
+[![License](https://img.shields.io/badge/license-MIT-35d6a0?style=flat-square&labelColor=060b0f)](LICENSE)
+
+</div>
+
+---
+
+## Color Palette
+
+| Role | Hex | Swatch |
+|---|---|---|
+| Background | `#060b0f` | ![#060b0f](https://img.shields.io/badge/-%23060b0f-060b0f?style=flat-square) |
+| Surface | `#0b1319` | ![#0b1319](https://img.shields.io/badge/-%230b1319-0b1319?style=flat-square) |
+| Selection | `#1d313d` | ![#1d313d](https://img.shields.io/badge/-%231d313d-1d313d?style=flat-square) |
+| Foreground | `#d8f7ea` | ![#d8f7ea](https://img.shields.io/badge/-%23d8f7ea-d8f7ea?style=flat-square) |
+| Muted | `#8cb7a9` | ![#8cb7a9](https://img.shields.io/badge/-%238cb7a9-8cb7a9?style=flat-square) |
+| Accent | `#35d6a0` | ![#35d6a0](https://img.shields.io/badge/-%2335d6a0-35d6a0?style=flat-square) |
+
+---
+
+## Features
+
+- **Near-black canvas** — `#060b0f` background reduces eye strain during long sessions
+- **Seafoam accent** — `#35d6a0` teal highlights are vivid without being harsh
+- **Cohesive UI** — activity bar, status bar, tabs, panels, and terminal all themed consistently
+- **Semantic token support** — bracket matching, word highlights, and inlay hints all styled
+- **Part of Leenium** — matches the full Leenium desktop stack (Waybar, btop, Neovim, Chromium, and more)
+
+---
+
+## Installation
+
+**From the Marketplace:**
+
+1. Open VS Code
+2. Press `Ctrl+P` and run:
+   ```
+   ext install leenium.leenium-theme
+   ```
+3. Open the Command Palette (`Ctrl+Shift+P`) → **Preferences: Color Theme** → select **Leenium**
+
+**From VSIX:**
 
 ```bash
-npm install -g @vscode/vsce
+code --install-extension leenium-theme-*.vsix
 ```
 
-2. Package extension:
+---
 
-```bash
-vsce package
-```
+## The Leenium Ecosystem
 
-3. Install generated `.vsix` in VS Code (`Extensions: Install from VSIX...`).
+Leenium is a unified dark desktop environment built around the same color palette. Alongside this VS Code theme, the project ships matching configs for:
 
-## Publish
+- **Neovim** — syntax highlights and UI elements
+- **Waybar** — status bar for Wayland compositors
+- **btop** — resource monitor
+- **Chromium** — browser theme
+- **SwayOSD** — on-screen display overlays
 
-1. Create Azure DevOps publisher and PAT.
-2. Login:
+Visit [github.com/leeniumos](https://github.com/leeniumos) to explore the full setup.
 
-```bash
-vsce login leenium
-```
+---
 
-3. Publish:
+## License
 
-```bash
-vsce publish
-```
-
-Extension id used by Leenium theme sync is `leenium.leenium-theme`.
+MIT © [DrunkLeen](LICENSE)
