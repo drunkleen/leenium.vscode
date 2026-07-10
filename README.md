@@ -2,13 +2,15 @@
 
 # Leenium Theme
 
-**A deep, ocean-tinted dark theme for VS Code — part of the Leenium desktop ecosystem.**
+**A deep, shared-palette dark theme for VS Code — part of the Leenium desktop ecosystem.**
+
+Hosted under `github.com/drunkleen/leenium.vscode`.
 
 ![Preview](preview.png)
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/drunkleen.leenium-theme?style=flat-square&color=35d6a0&labelColor=060b0f)](https://marketplace.visualstudio.com/items?itemName=leenium.leenium-theme)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/drunkleen.leenium-theme?style=flat-square&color=35d6a0&labelColor=060b0f)](https://marketplace.visualstudio.com/items?itemName=leenium.leenium-theme)
-[![License](https://img.shields.io/badge/license-MIT-35d6a0?style=flat-square&labelColor=060b0f)](LICENSE)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/leenium.leenium-theme?style=flat-square&color=33b8a8&labelColor=0b1113)](https://marketplace.visualstudio.com/items?itemName=leenium.leenium-theme)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/leenium.leenium-theme?style=flat-square&color=33b8a8&labelColor=0b1113)](https://marketplace.visualstudio.com/items?itemName=leenium.leenium-theme)
+[![License](https://img.shields.io/badge/license-MIT-33b8a8?style=flat-square&labelColor=0b1113)](LICENSE)
 
 </div>
 
@@ -18,19 +20,19 @@
 
 | Role | Hex | Swatch |
 |---|---|---|
-| Background | `#060b0f` | ![#060b0f](https://img.shields.io/badge/-%23060b0f-060b0f?style=flat-square) |
-| Surface | `#0b1319` | ![#0b1319](https://img.shields.io/badge/-%230b1319-0b1319?style=flat-square) |
-| Selection | `#1d313d` | ![#1d313d](https://img.shields.io/badge/-%231d313d-1d313d?style=flat-square) |
-| Foreground | `#d8f7ea` | ![#d8f7ea](https://img.shields.io/badge/-%23d8f7ea-d8f7ea?style=flat-square) |
-| Muted | `#8cb7a9` | ![#8cb7a9](https://img.shields.io/badge/-%238cb7a9-8cb7a9?style=flat-square) |
-| Accent | `#35d6a0` | ![#35d6a0](https://img.shields.io/badge/-%2335d6a0-35d6a0?style=flat-square) |
+| Background | `#0b1113` | ![](https://placehold.co/16x16/0b1113/0b1113.png) |
+| Surface | `#11191c` | ![](https://placehold.co/16x16/11191c/11191c.png) |
+| Selection | `#365156` | ![](https://placehold.co/16x16/365156/365156.png) |
+| Foreground | `#d8e3e0` | ![](https://placehold.co/16x16/d8e3e0/d8e3e0.png) |
+| Muted | `#718688` | ![](https://placehold.co/16x16/718688/718688.png) |
+| Accent | `#33b8a8` | ![](https://placehold.co/16x16/33b8a8/33b8a8.png) |
 
 ---
 
 ## Features
 
-- **Near-black canvas** — `#060b0f` background reduces eye strain during long sessions
-- **Seafoam accent** — `#35d6a0` teal highlights are vivid without being harsh
+- **Near-black canvas** — `#0b1113` background reduces eye strain during long sessions
+- **Shared accent** — `#33b8a8` teal highlights are vivid without being harsh
 - **Cohesive UI** — activity bar, status bar, tabs, panels, and terminal all themed consistently
 - **Semantic token support** — bracket matching, word highlights, and inlay hints all styled
 - **Part of Leenium** — matches the full Leenium desktop stack (Waybar, btop, Neovim, Chromium, and more)
@@ -66,10 +68,10 @@ Leenium is a unified dark desktop environment built around the same color palett
 - **Chromium** — browser theme
 - **SwayOSD** — on-screen display overlays
 
-Visit [github.com/leeniumos](https://github.com/leeniumos) to explore the full setup.
+Visit [github.com/drunkleen](https://github.com/drunkleen) to explore the full setup.
 
 ---
 
 ## License
 
-MIT © [DrunkLeen](LICENSE)
+MIT © [Leenium](LICENSE)
