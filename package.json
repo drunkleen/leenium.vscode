@@ -2,8 +2,9 @@
   "name": "leenium-theme",
   "displayName": "Leenium Theme",
   "description": "Official VS Code theme for Leenium.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "drunkleen",
+  "icon": "assets/icon.png",
   "engines": {
     "vscode": "^1.85.0"
   },
