@@ -8,11 +8,13 @@
 
 Hosted under `github.com/drunkleen/leenium.vscode`.
 
+Available on the VS Code Marketplace: [marketplace.visualstudio.com/items?itemName=drunkleen.leenium-theme](https://marketplace.visualstudio.com/items?itemName=drunkleen.leenium-theme).
+
 <img src="./assets/preview.png" width="49%" />
 <img src="./assets/preview2.png" width="49%" />
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/leenium.leenium-theme?style=flat-square&color=33b8a8&labelColor=0b1113)](https://marketplace.visualstudio.com/items?itemName=leenium.leenium-theme)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/leenium.leenium-theme?style=flat-square&color=33b8a8&labelColor=0b1113)](https://marketplace.visualstudio.com/items?itemName=leenium.leenium-theme)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/drunkleen.leenium-theme?style=flat-square&color=33b8a8&labelColor=0b1113)](https://marketplace.visualstudio.com/items?itemName=drunkleen.leenium-theme)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/drunkleen.leenium-theme?style=flat-square&color=33b8a8&labelColor=0b1113)](https://marketplace.visualstudio.com/items?itemName=drunkleen.leenium-theme)
 [![License](https://img.shields.io/badge/license-MIT-33b8a8?style=flat-square&labelColor=0b1113)](LICENSE)
 
 </div>
@@ -56,7 +58,7 @@ Hosted under `github.com/drunkleen/leenium.vscode`.
 1. Open VS Code
 2. Press `Ctrl+P` and run:
    ```
-   ext install leenium.leenium-theme
+   ext install drunkleen.leenium-theme
    ```
 3. Open the Command Palette (`Ctrl+Shift+P`) → **Preferences: Color Theme** → select **Leenium**
 
