@@ -72,16 +72,15 @@ code --install-extension leenium-theme-*.vsix
 
 ## The Leenium Ecosystem
 
-Leenium is a unified dark desktop environment built around the same color palette. Alongside this VS Code theme, the project ships matching configs for:
+Leenium is a unified dark desktop environment built around the same color palette. Alongside this Waybar theme, the project ships matching configs for:
 
-- **Neovim** — syntax highlights and UI elements
-- **Waybar** — status bar for Wayland compositors
-- **btop** — resource monitor
-- **Chromium** — browser theme
-- **Firefox** — browser theme
-- **SwayOSD** — on-screen display overlays
+- [**VS Code**](github.com/drunkleen/leenium.vscode) - editor theme and UI palette
+- [**Neovim**](github.com/drunkleen/leenium.nvim) - syntax highlights and UI elements
+- [**Firefox**](github.com/drunkleen/leenium.firefox) - browser theme extension
+- [**OpenCode**](github.com/drunkleen/leenium.opencode) - terminal-first theme
+- [**Omarchy**](github.com/drunkleen/leenium.omarchy) - desktop theme bundle
 
-Visit [github.com/drunkleen](https://github.com/drunkleen) to explore the full setup.
+Visit [github.com/drunkleen](https://github.com/drunkleen) or [leenium.drunkleen.com](https://leenium.drunkleen.com/) to explore the full setup.
 
 ---
 
